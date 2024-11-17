@@ -1,0 +1,55 @@
+{
+  "name": "quick-wallet-react",
+  "version": "1.0.0",
+  "description": "generate an arweave-compatible wallet instantly, without installations",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArweavePH/quick-wallet-react.git"
+  },
+  "keywords": [
+    "arweave",
+    "ao",
+    "blockchain",
+    "web3",
+    "wallet",
+    "quick",
+    "wallet",
+    "aoconnect",
+    "arconnect",
+    "permaweb"
+  ],
+  "author": "theointech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArweavePH/quick-wallet-react/issues"
+  },
+  "homepage": "https://github.com/ArweavePH/quick-wallet-react#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-popover": "^1.1.2",
+    "clsx": "^2.1.1",
+    "quick-wallet": "^0.3.1",
+    "tailwind-merge": "^2.5.4"
+  }
+}
